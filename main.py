@@ -41,7 +41,7 @@ class MainHandler(webapp2.RequestHandler):
         number_sentence = 'Your lucky number: ' + "<strong>"+(lucky_number)+"</strong>"
         number_paragraph = "<p>" + number_sentence + "</p>"
 
-        button_for_another_fortune = "<a href ='.'><button>Another cookie plz!<button></a>"
+        button_for_another_fortune = "<a href ='.'><button>Another cookie plz!</button></a>"
 
         content = header + fortune_paragraph + number_paragraph + button_for_another_fortune
 
